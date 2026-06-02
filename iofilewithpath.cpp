@@ -42,4 +42,11 @@ int main()
     cout << endl << ">=membuka dan membaca file" << endl;
     //kondisi jika file ada
     if (infile.is_open())
+    {
+        //perulangan untuk menampilkan setiapbaris
+        while (getline(infile, baris))
+        {
+            cout << baris << endl;
+        }
+    }
 }

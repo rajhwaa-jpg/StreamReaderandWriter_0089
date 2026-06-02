@@ -4,3 +4,7 @@
 using namespace std;
 
 int main()
+{
+    //deklarasi variable baris dan namafile
+    string bari, namafile;
+}

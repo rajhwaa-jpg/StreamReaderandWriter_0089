@@ -21,4 +21,11 @@ int main()
 
     //looping untuk menulis isi file
     while (true)
+    {
+        cout << "- ";
+        //mendapatkan setiap karakter dlam satu baris
+        getline(cin, baris);
+        //kondisi jika baris hanya berisi huruf q
+        if (baris == "q") break;
+    }
 }

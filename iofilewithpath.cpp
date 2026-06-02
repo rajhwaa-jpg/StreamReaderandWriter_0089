@@ -7,4 +7,8 @@ int main()
 {
     //deklarasi variable baris dan namafile
     string bari, namafile;
+
+    //membuat inpput untuk menangkap nama file
+    cout << "masukkan nama file : ";
+    cin >> namafile;
 }

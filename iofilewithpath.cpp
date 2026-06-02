@@ -14,4 +14,8 @@ int main()
 
     //membuat file falam mode menulis
     ofstream outfile;
+    //menunjuk ke sebuah nama file dengan ekstensi txt
+    outfile.open(namafile + ".txt", ios::out);
+
+    cout << ">= menulis file, \'q\' untuk keluar" << endl;
 }

@@ -18,4 +18,7 @@ int main()
     outfile.open(namafile + ".txt", ios::out);
 
     cout << ">= menulis file, \'q\' untuk keluar" << endl;
+
+    //looping untuk menulis isi file
+    while (true)
 }

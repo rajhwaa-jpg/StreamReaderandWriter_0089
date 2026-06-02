@@ -38,4 +38,8 @@ int main()
 
     //menunjuk ke sebuah file dengan eksistensi .txt
     infile.open(namafile + ".txt", ios::in);
+
+    cout << endl << ">=membuka dan membaca file" << endl;
+    //kondisi jika file ada
+    if (infile.is_open())
 }
